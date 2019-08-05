@@ -6,6 +6,7 @@ import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 
 /**
  * 配置 WebSocket
+ * SpringBoot内置环境运行必须配置，若打成war到服务器Tomcat运行则不需要该配置
  *
  * @author luojihHui
  * @date 2019/7/2
